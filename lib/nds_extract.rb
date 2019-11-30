@@ -26,7 +26,7 @@ def directors_totals(nds)
     result[string_holder] = 0
     n[:movies][0].each do |m|
       #result[string_holder] += m[:worldwide_gross]
-      pp m[:worldwide_gross]
+      pp m
     end
   end
   
