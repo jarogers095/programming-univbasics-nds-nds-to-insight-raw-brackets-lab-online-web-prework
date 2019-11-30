@@ -21,14 +21,14 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
 
-  '''nds.each do |n|
+  nds.each do |n|
     string_holder = n[:name]
     result[string_holder] = 0
-    n[:movies][0].each do |m|
-      result[string_holder] += m[:worldwide_gross]
-    end
+    #n[:movies][0].each do |m|
+      #result[string_holder] += m[:worldwide_gross]
+    #end
   end
   
-  return result'''
-  pp nds[0][:movies][0][:worldwide_gross]
+  pp result
+  #pp nds[0][:movies][0][:worldwide_gross]
 end
