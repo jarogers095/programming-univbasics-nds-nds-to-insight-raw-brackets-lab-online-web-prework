@@ -30,5 +30,5 @@ def directors_totals(nds)
   end
   
   return result'''
-  pp nds[0][:name]
+  pp nds[0][:movies]
 end
