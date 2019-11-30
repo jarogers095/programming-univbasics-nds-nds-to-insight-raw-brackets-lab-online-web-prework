@@ -21,7 +21,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
 
-  nds.each do |n|
+  '''nds.each do |n|
     string_holder = n[:name]
     result[string_holder] = 0
     n[:movies][0].each do |m|
@@ -29,5 +29,6 @@ def directors_totals(nds)
     end
   end
   
-  return result
+  return result'''
+  pp nds
 end
